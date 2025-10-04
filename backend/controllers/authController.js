@@ -37,7 +37,7 @@ exports.registerUser = async (req, res) => {
         { userId: user._id, contactId: contact._id },
         {
           $set: {
-            alias: rawPhone, // Default alias = phone
+            alias: rawPhone, 
             createdAt: new Date(),
             updatedAt: new Date(),
           },
