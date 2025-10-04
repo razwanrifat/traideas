@@ -1,0 +1,28 @@
+#  Instructions to Run the Project
+
+---------------------------------------------------
+
+##  Backend Setup
+
+cd backend
+npm install
+# Create a .env file (see .env example)
+node server.js
+
+Backend runs at: http://localhost:5000
+
+-----------------------------------------------------
+
+##  Frontend Setup
+
+cd frontend
+npm install
+# Create a .env.local file (see example)
+npm run dev
+
+Frontend runs at: http://localhost:3000
+
+------------------------------------------------
+
+ Make sure MongoDB Atlas URI and JWT secret are valid in your .env
+
